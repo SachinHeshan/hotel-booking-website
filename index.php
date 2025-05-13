@@ -650,6 +650,55 @@ position: relative;
         </div>
     </section>
 
+
+       <!-- reach us -->
+
+       <h2 class="mt-5 pt-4 mb-4 mb-4 text-center fw-bpld h-font">REACH US</h2>
+
+       <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded shadow">
+            <iframe class="w-100 rounded" height="480" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63350.809923085406!2d79.87106064198191!3d7.076553389020807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f740b8451b07%3A0x7a32909a84e124c9!2sJa-Ela!5e0!3m2!1sen!2slk!4v1747132039616!5m2!1sen!2slk" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;"></iframe>
+        </div>
+
+        <div class="col-lg-4 col-md-4 p-4 rounded mb-4">
+            <div class="bg-white p-4 rounded shadow w-100">
+                <h5 class="mb-3">CALL US</h5>
+                <a href="tel:+94721374907" class="d-block mb-2 text-decoration-none text-dark fw-bold">
+                    <i class="bi bi-telephone-fill"></i> +94721374907
+                </a>
+                <a href="tel:+94721374907" class="d-block text-decoration-none text-dark fw-bold">
+                    <i class="bi bi-telephone-fill"></i> +94721374907
+                </a>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow w-100 mt-3">
+                <h5 class="mb-3">Reach us</h5>
+                <a href="#" class="d-inline-block mb-2">
+                    <span class="badge bg-light text-dark fs-6 p-2">
+                        <i class="bi bi-twitter m-1"></i> Twitter
+                    </span>
+                </a>
+                <br>
+                <a href="#" class="d-inline-block mb-2">
+                    <span class="badge bg-light text-dark fs-6 p-2">
+                       <i class="bi bi-facebook"></i> Facebook
+                    </span>
+                </a>
+                <br>
+                <a href="#" class="d-inline-block mb-2">
+                    <span class="badge bg-light text-dark fs-6 p-2">
+                       <i class="bi bi-instagram"></i> Instagram
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <br><br><br>
 <br><br><br>
 
