@@ -143,6 +143,76 @@ position: relative;
             }
   
 }
+  footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 40px 0;
+            font-family: 'Arial', sans-serif;
+        }
+        footer a {
+            color: #cccccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #ffffff;
+        }
+        .footer-logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        .footer-section h5 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #f8f9fa;
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        .social-icons a {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: #cccccc;
+        }
+        .social-icons a:hover {
+            color: #ffffff;
+        }
+        .newsletter-form .form-control {
+            border-radius: 0;
+            background-color: #2c2c2c;
+            border: none;
+            color: #ffffff;
+        }
+        .newsletter-form .btn {
+            border-radius: 0;
+            background-color: #007bff;
+            border: none;
+        }
+        .newsletter-form .btn:hover {
+            background-color: #0056b3;
+        }
+        .copyright {
+            background-color: #111111;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .footer-section {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .social-icons {
+                justify-content: center;
+            }
+            .newsletter-form {
+                max-width: 100%;
+            }
+        }
 </style>
 </head>
 <body class="bg-light">
@@ -662,7 +732,7 @@ position: relative;
         </div>
 
         <div class="col-lg-4 col-md-4 p-4 rounded mb-4">
-            <div class="bg-white p-4 rounded shadow w-100">
+            <div class="bg-white p-4 rounded  w-100">
                 <h5 class="mb-3">CALL US</h5>
                 <a href="tel:+94721374907" class="d-block mb-2 text-decoration-none text-dark fw-bold">
                     <i class="bi bi-telephone-fill"></i> +94721374907
@@ -672,7 +742,7 @@ position: relative;
                 </a>
             </div>
 
-            <div class="bg-white p-4 rounded shadow w-100 mt-3">
+            <div class="bg-white p-4 rounded  w-100 mt-3">
                 <h5 class="mb-3">Reach us</h5>
                 <a href="#" class="d-inline-block mb-2">
                     <span class="badge bg-light text-dark fs-6 p-2">
@@ -696,11 +766,44 @@ position: relative;
     </div>
 </div>
 
+<!-- footer -->
+
+ <div class="container-fluid bg-white mt-5">
+  <div class="row">
+    <div class="col-lg-4 p-4">
+      <h3 class="h-front fw-bold fs-3 mb-2">SH HOTEL</h3>
+      <P>
+        our trusted partner for unforgettable stays. 
+        Book with us for the best deals and exceptional service.
+      </P>
+    </div>
+    <div class="col-lg-4 p-4">
+      <h5 class="mb-3">Links</h5>
+      <a href="#"class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
+      <a href="#"class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+      <a href="#"class="d-inline-block mb-2 text-dark text-decoration-none">Facilities</a><br>
+      <a href="#"class="d-inline-block mb-2 text-dark text-decoration-none">Contact Us</a><br>
+      <a href="#"class="d-inline-block mb-2 text-dark text-decoration-none">About</a>
+      
+    </div>
+    <div class="col-lg-4 p-4">
+      <h3 class="mb-3">Follow Us</h3>
+       <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+        <i class="bi bi-twitter m-1"></i> Twitter
+       </a><br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+        <i class="bi bi-facebook"></i> Facebook
+       </a><br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+        <i class="bi bi-instagram m-1"></i>instagram
+       </a><br>
+
+    </div>
+  </div>
+  
+ </div>
 
 
-
-<br><br><br>
-<br><br><br>
 
 
 
