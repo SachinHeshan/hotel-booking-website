@@ -1,40 +1,225 @@
+:root {
+  --teal: #2ec1ac;
+  --teal_hover: #279e8c;
+}
 
+body {
+  font-family: Arial, sans-serif;
+}
 
-        .testimonial-section {
-            padding: 50px 0;
-        }
-        .testimonial-card {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
-            min-height: 300px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .testimonial-card img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            margin: 0 auto 10px;
-        }
-        .testimonial-card p {
-            font-size: 1rem;
-            color: #333;
-            margin-bottom: 15px;
-        }
-        .testimonial-card h5 {
-            font-size: 0.9rem;
-            color: #6c757d;
-            margin: 0;
-        }
-        .carousel-control-prev-icon,
-        .carousel-control-next-icon {
-            background-color: #007bff;
-            border-radius: 50%;
-            padding: 20px;
-        }
-        
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.custom-bg {
+  background-color: var(--teal);
+  border: 1px solid var(--teal);
+}
+
+.custom-bg:hover {
+  background-color: var(--teal_hover);
+  border-color: var(--teal_hover);
+}
+
+.availability-form {
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+}
+
+.testimonial-section {
+  padding: 50px 0;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 37px;
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+.testimonial-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h5 {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .availability-form {
+    margin-top: 25px;
+    padding: 0 35px;
+  }
+
+  .testimonial-card {
+    min-height: 250px;
+    margin: 10px auto;
+  }
+
+  .testimonial-card p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-item .row > div:nth-child(2),
+  .carousel-item .row > div:nth-child(3) {
+    display: none;
+  }
+
+  .carousel-item .row > div:first-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+footer a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+.footer-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-section h5 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f8f9fa;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #cccccc;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.newsletter-form .form-control {
+  border-radius: 0;
+  background-color: #2c2c2c;
+  border: none;
+  color: #ffffff;
+}
+
+.newsletter-form .btn {
+  border-radius: 0;
+  background-color: #007bff;
+  border: none;
+}
+
+.newsletter-form .btn:hover {
+  background-color: #0056b3;
+}
+
+.copyright {
+  background-color: #111111;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .newsletter-form {
+    max-width: 100%;
+  }
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.h-front {
+  font-family: "Merienda", cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.h-line {
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
