@@ -208,6 +208,11 @@
             <span class="badge text-bg-light text-dark text-wrap">AC</span>
             <span class="badge text-bg-light text-dark text-wrap">Room heater</span>
          </div>
+         <div class="Guests mb-4">
+          <h6 class="mb-1">Guests</h6>
+          <span class="badge text-bg-light text-dark text-wrap">5 Adults</span>
+            <span class="badge text-bg-light text-dark text-wrap">4 Children</span>
+         </div>
          <div class="rating mb-2">
          <h6 class="mb-1">Rating</h6>
          <span class="badge-rounded-pill bg-light">
@@ -245,6 +250,11 @@
             <span class="badge text-bg-light text-dark text-wrap">AC</span>
             <span class="badge text-bg-light text-dark text-wrap">Room heater</span>
          </div>
+          <div class="Guests mb-4">
+          <h6 class="mb-1">Guests</h6>
+          <span class="badge text-bg-light text-dark text-wrap">5 Adults</span>
+            <span class="badge text-bg-light text-dark text-wrap">4 Children</span>
+         </div>
          <div class="rating mb-2">
          <h6 class="mb-1">Rating</h6>
          <span class="badge-rounded-pill bg-light">
@@ -275,6 +285,11 @@
             <span class="badge text-bg-light text-dark text-wrap">1 Balcony</span>
             <span class="badge text-bg-light text-dark text-wrap">3 Sofa</span>
           </div>
+           <div class="Guests mb-4">
+          <h6 class="mb-1">Guests</h6>
+          <span class="badge text-bg-light text-dark text-wrap">5 Adults</span>
+            <span class="badge text-bg-light text-dark text-wrap">4 Children</span>
+         </div>
           <div class="Facilities mb-4">
           <h6 class="mb-1">Facilities</h6>
           <span class="badge text-bg-light text-dark text-wrap">Wifi</span>
