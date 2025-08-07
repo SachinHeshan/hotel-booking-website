@@ -34,4 +34,15 @@ function alert($type, $msg) {
 ALERT;
 }
 
+ function filtration($data) {
+    foreach ($data as $key => $value) {
+        $data[$key] = trim($value);
+        $data[$key] = stripslashes($data[$key]); 
+        $data[$key] = htmlspecialchars($data[$key]);
+        $data[$key] = strip_tags($data[$key]);
+    }
+    return $data;
+
+}
+
 ?>

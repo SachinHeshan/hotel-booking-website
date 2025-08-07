@@ -31,11 +31,30 @@ function Select($sql, $value, $datatype) {
             mysqli_stmt_close($stmt);
             return $res;
         } else {
+            mysqli_stmt_close($stmt);
             die("query cannot be executed-select");
         }
 
     } else {
         die("query cannot be prepared-select");
+    }
+}
+
+function update($sql, $value, $datatype) {
+    $con = $GLOBALS['con'];
+    if ($stmt = mysqli_prepare($con, $sql)) {
+
+        mysqli_stmt_bind_param($stmt, $datatype, ...$value);
+        if (mysqli_stmt_execute($stmt)) {
+            $res = mysqli_stmt_affected_rows($stmt);
+            mysqli_stmt_close($stmt);
+            return $res;
+        } else {
+            die("query cannot be executed-update");
+        }
+
+    } else {
+        die("query cannot be prepared-update");
     }
 }
 
